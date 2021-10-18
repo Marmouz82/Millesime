@@ -5,6 +5,3 @@ allBoxes.forEach(box => {
     e.target.classList.toggle('active');
   })
 })
-
-
-
