@@ -24,7 +24,7 @@ path {
     stroke: #f1f1f1f1;
     stroke-dasharray: 3000px;
     stroke-dashoffset: 3000px;
-    animation: anim-svg 4s ease-in-out forwards;
+    animation: anim-svg 3.5s ease-in-out forwards;
 }
 
 @keyframes anim-svg {
