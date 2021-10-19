@@ -13,7 +13,7 @@
 }
 
 #sectionProduct {
-    margin: 15rem 0rem;
+    margin: 15rem 0rem 0rem 0rem;
 }
 
 .productTitle{
@@ -23,6 +23,8 @@
 
 .productText {
     font-family: 'Cormorant', serif;
+    width: 80%;
+    margin: auto;
 }
 
 #sectionProduct img{
@@ -63,4 +65,45 @@
 .bottle :hover {
     transform: scale(1.5);
     transition-duration: .5s;
+}
+
+/* ********** ARRAY ********** */
+
+
+.sectionPrice table {
+    width: 80%;
+    font-size: 2.2rem;
+    margin: 20rem auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+.tabMainTitle {
+    font-size: 4rem;
+    font-family: 'IM Fell English SC', serif;
+    height: 7rem;
+    line-height: 7rem;
+}
+
+.sectionPrice td {
+    border: 1px solid #f1f1f1f1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sectionPrice thead,
+tfoot {
+    color: #fff;
+}
+
+.tabTitle, 
+.wineColor,
+.winePrice {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.wineName {
+    font-family: 'Cormorant', serif;
 }
